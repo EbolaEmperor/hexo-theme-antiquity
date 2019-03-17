@@ -118,7 +118,7 @@ button::-moz-focus-inner {
 
 body{
   line-height: 1.5;
-  color: #333;
+  color: #fff;
   background: #FAF3E1;
   font-size: 14px;
   font-family: Arial, Roboto, "Droid Sans", "Hiragino Sans GB", "Microsoft YaHei", "Simsun", STXihei, "sans-serif";
@@ -130,7 +130,7 @@ iframe {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }
 
 a:focus,
@@ -233,6 +233,9 @@ html, body, #fullpage{
 .nav-box a {
   padding: 14px 20px;
   display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
 }
 .mobile-nav-box{
   position: absolute;
@@ -295,7 +298,10 @@ html, body, #fullpage{
   margin-bottom: 50px;
   position: relative;
   padding: 30px;
-  background: rgba(255, 255, 255, .85)  
+  background: rgba(0, 0, 0, .75);
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: #fff
 }
 .widget-box::before, .widget-box::after {
   content: "";
@@ -336,17 +342,22 @@ html, body, #fullpage{
   border-radius: 100%;
 }
 .avatar-name {
-  writing-mode: vertical-lr
+  writing-mode: vertical-tb;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Comic Sans MS, serif;
 }
 .avatar-slogan {
   writing-mode: vertical-lr;
+  font-family: 楷体, serif;
   max-height: 200px;
 }
 .global-container {
-  box-shadow: 1px 2px 3px #ddd;
+  box-shadow: 1px 2px 3px #333;
   border: 1px solid rgba(190, 126, 74, .3);
   padding: 20px;
-  background: rgba(255, 255, 255, .85)
+  border-radius: 30px;
+  background: rgba(0, 0, 0, .75)
 }
 .article {
   margin-bottom: 50px;
@@ -665,10 +676,11 @@ html, body, #fullpage{
   text-align: center
 }
 #page-nav{
-  box-shadow: 1px 2px 3px #ddd;
+  box-shadow: 1px 2px 3px #333;
   border: 1px solid rgba(190, 126, 74, .3);
   padding: 20px;
-  background: rgba(255, 255, 255, .85);
+  background: rgba(0, 0, 0, .75);
+  border-radius: 30px;
   margin-bottom: 50px;
   text-align: center;
   display: flex;

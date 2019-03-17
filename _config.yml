@@ -1,4 +1,4 @@
-# Header
+﻿# Header
 menu:
   首页: /
   归档: /archives
@@ -19,9 +19,9 @@ widgets:
 - userinfo
 - category
 - tag
-- tagcloud
 - archive
 - recent_posts
+- friend
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -34,14 +34,14 @@ archive_type: 'monthly'
 show_count: false
 
 # Background
-# background_image: /images/bg.jpeg
-background_title: 图片来自网络
+background_image: /images/bg.jpg
+background_title: 背景图片来自wlop
 
 #Userinfo
-author: 一路烟霞
-slogan: 特别耐撕的小前端，资深的打酱油攻城狮。
-# avatar: /images/code-title.png
-avatar_title: 图片来自网络
+author: Ebola
+slogan: 万物皆可持久化
+avatar: /images/logo.png
+avatar_title: 头像
 
 # Article code panel: cloud doorframe mac
 highlightPanel: doorframe
@@ -58,7 +58,7 @@ google_analytics:
 gauges_analytics:
 google_site_verification: 
 baidu_site_verification: 
-favicon: /images/default-avatar.jpeg
+favicon: /images/logo.png
 twitter:
 google_plus:
 fb_admins:
