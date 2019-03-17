@@ -124,9 +124,12 @@
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-content code {
-  background: #eee;
-  text-shadow: 0 1px #fff;
-  padding: 0 0.3em;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: monospace, "Courier New";
+  color: #c46532;
+  white-space: nowrap;
+  padding: 2px 4px;
 }
 .article-content pre code {
   background: none;
