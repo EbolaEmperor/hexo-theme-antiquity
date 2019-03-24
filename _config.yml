@@ -34,13 +34,13 @@ archive_type: 'monthly'
 show_count: false
 
 # Background
-background_image: /images/bg.jpg
+background_image: http://wx2.sinaimg.cn/large/007rnRadgy1g1dmddut88j311c0m847r.jpg
 background_title: 背景图片来自wlop
 
 #Userinfo
 author: Ebola
 slogan: 万物皆可持久化
-avatar: /images/logo.png
+avatar: http://wx3.sinaimg.cn/large/007rnRadgy1g1dmftamhoj30b90bfdpv.jpg
 avatar_title: 头像
 
 # Article code panel: cloud doorframe mac
